@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "name": "IT Audit Control Testing Simulator",
+            "description": "Python tool that simulates SOX control testing and compliance checks.",
+            "link": "#"
+        },
+        {
+            "name": "Vulnerability Scanner (Python)",
+            "description": "A script that scans for open ports and weak configurations.",
+            "link": "#"
+        },
+        {
+            "name": "Log Analysis Tool",
+            "description": "Python project built to parse Windows logs and detect anomalies.",
+            "link": "#"
+        }
+    ]
+}
