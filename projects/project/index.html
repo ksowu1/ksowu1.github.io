@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Komi Sowu — IT Auditor & Cybersecurity Analyst</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Meta -->
+  <meta name="description" content="Komi Sowu — IT Audit, GRC, cybersecurity. Portfolio: ITGC audits, SOC2 reviews, log analysis tools, vulnerability scanners." />
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="site-header" role="banner">
+    <div class="nav-inner">
+      <div class="brand">
+        <a href="#" aria-label="Komi Sowu homepage">Komi Sowu</a>
+      </div>
+
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="cta" href="KomiSowu_Resume.pdf" download>Download Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <h1>Komi Eyram Sowu</h1>
+      <p class="subtitle">IT Audit • GRC • Cybersecurity Analyst — <strong>CISA Exam Passed</strong></p>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+    <section id="about" class="container card-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="card two-col">
+        <div class="card-body">
+          <p>I am an IT Auditor and Cybersecurity Analyst with hands-on experience in ITGCs, SOX testing, risk assessments, vulnerability analysis, and governance frameworks (NIST, ISO 27001, COBIT). I currently study Information Technology at Kennesaw State University and have passed the CISA exam (experience verification pending).</p>
+          <p>I focus on measurable improvements: stronger access controls, reliable logging and monitoring, repeatable audit tests, and clear remediation recommendations.</p>
+        </div>
+        <div class="card-quick">
+          <ul class="quick-list">
+            <li><strong>Location:</strong> Atlanta, GA</li>
+            <li><strong>Education:</strong> KSU — B.S. IT (May 2027)</li>
+            <li><strong>Cert:</strong> CISA — exam passed</li>
+            <li><strong>Open to:</strong> Internships & Entry-level IT Audit/GRC roles</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Audit & Controls</h3>
+          <ul>
+            <li>SOX ITGC testing, sampling & workpapers</li>
+            <li>Control design & remediation</li>
+            <li>Audit lifecycle — planning → fieldwork → reporting</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>GRC & Frameworks</h3>
+          <ul>
+            <li>NIST CSF / 800-53, ISO 27001, COBIT</li>
+            <li>Risk registers & residual risk rating</li>
+            <li>ServiceNow GRC / Archer (conceptual)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Security & Tools</h3>
+          <ul>
+            <li>Splunk basics, log analysis</li>
+            <li>Nessus/Qualys scanning & vuln triage</li>
+            <li>TryHackMe fundamentals</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Technical</h3>
+          <ul>
+            <li>Python scripting, SQL queries</li>
+            <li>Excel — dashboards & pivot tables</li>
+            <li>Windows Event Log parsing, automation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Featured Projects</h2>
+
+      <!-- Slider -->
+      <div class="project-slider" aria-roledescription="carousel" aria-label="Featured projects">
+        <div class="slides">
+          <article class="project-card" tabindex="0" aria-roledescription="slide" aria-label="IT Audit Control Testing Simulator">
+            <h3>IT Audit Control Testing Simulator</h3>
+            <p>Python tool to simulate SOX sampling, control walkthroughs, and evidence collection for auditors.</p>
+            <p class="tagline"><strong>Skills:</strong> Python • Sampling • Workpapers</p>
+            <a class="button small" href="projects/project1.html">View Details</a>
+          </article>
+
+          <article class="project-card" tabindex="0" aria-roledescription="slide" aria-label="Log Analysis Tool">
+            <h3>Log Analysis Tool</h3>
+            <p>Automated scanner to analyze logs for suspicious patterns and weak configurations.</p>
+            <p class="tagline"><strong>Skills:</strong> Splunk • Python • Forensics</p>
+            <a class="button small" href="projects/project2.html">View Details</a>
+          </article>
+
+          <article class="project-card" tabindex="0" aria-roledescription="slide" aria-label="Vulnerability Scanner">
+            <h3>Vulnerability Scanner (Python)</h3>
+            <p>Parser and analyzer for Windows Event Logs and vulnerability outputs to prioritize remediation.</p>
+            <p class="tagline"><strong>Skills:</strong> Nessus/Qualys • Automation • Triage</p>
+            <a class="button small" href="projects/project3.html">View Details</a>
+          </article>
+        </div>
+
+        <!-- controls -->
+        <div class="controls">
+          <button class="prev" aria-label="Previous slide">❮</button>
+          <div class="dots" role="tablist" aria-label="Slide dots"></div>
+          <button class="next" aria-label="Next slide">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container card-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="card two-col">
+        <div class="card-body">
+          <p>If you'd like to connect for internships or entry roles, I'm available to interview and discuss projects.</p>
+          <p><strong>Email:</strong> <a href="mailto:ksowu190@gmail.com">ksowu190@gmail.com</a></p>
+          <p><strong>LinkedIn:</strong> <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/komi-sowu-150207184/">View Profile</a></p>
+        </div>
+
+        <div class="card-quick">
+          <a class="button" href="KomiSowu_Resume.pdf" download>Download Resume</a>
+          <div class="spacer"></div>
+          <p class="muted">Available for internships (Summer/Fall 2026) — open to relocation within the U.S.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Komi Eyram Sowu — IT Audit & Cybersecurity Portfolio</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
