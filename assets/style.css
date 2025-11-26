@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-/* Grid layout */
+/* Grid Layout */
 .overview .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -27,18 +27,18 @@
     border-radius: 14px;
     padding: 25px;
     border: 1px solid #1f2937;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.25s ease, box-shadow 0.25s ease, border 0.25s ease;
 }
 
-/* Card hover effect */
+/* Hover Effects */
 .overview .card:hover {
     transform: translateY(-6px);
     border-color: #3b82f6;
     box-shadow: 0 0 18px rgba(59, 130, 246, 0.25);
 }
 
-/* Card titles */
+/* Titles */
 .overview .card h3 {
     margin-top: 0;
     font-size: 22px;
@@ -46,7 +46,7 @@
     font-weight: 600;
 }
 
-/* Card paragraph */
+/* Paragraph */
 .overview .card p {
     color: #cbd5e1;
     margin: 12px 0 18px;
@@ -54,7 +54,7 @@
     font-size: 15px;
 }
 
-/* Card link button */
+/* Card Link Button */
 .overview .card-link {
     display: inline-block;
     font-weight: 600;
@@ -65,4 +65,18 @@
 
 .overview .card-link:hover {
     color: #60a5fa;
+}
+
+
+/* ===== Responsive Improvement ===== */
+@media (max-width: 480px) {
+    .overview h2 {
+        font-size: 26px;
+    }
+    .overview .card {
+        padding: 20px;
+    }
+    .overview .card h3 {
+        font-size: 20px;
+    }
 }
